@@ -1,0 +1,15 @@
+{
+    "name": "reneroboter/endurora",
+    "description": "Enduroa is a fun project to make TrainingPeaks workout data available as an .ics file. This feature is also available in the official Pro version, but I only need these entries in my personal Google calendar.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "René Backhaus",
+            "email": "rene.backhaus@real-digital.de"
+        }
+    ],
+    "require": {
+        "eluceo/ical": "^2.12"
+    }
+}
