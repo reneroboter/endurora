@@ -6,7 +6,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $pathToWorkoutData = __DIR__ . '/data/workouts.json';
 
-if(!file_exists($pathToWorkoutData)) {
+if (!file_exists($pathToWorkoutData)) {
     throw new RuntimeException('The workouts.json file could not be found!');
 }
 
